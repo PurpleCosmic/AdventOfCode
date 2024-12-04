@@ -56,7 +56,7 @@ int check_matches(std::vector<std::string> lines, int r, int c) {
 }
 
 int main(int argc, char** argv) {
-    auto file = get_lines("2024/day_4/day4example");
+    auto file = get_lines("2024/day_4/day4input");
 
     int res = 0;
     for (size_t i = 0; i < file.size(); i++) {
