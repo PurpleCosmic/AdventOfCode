@@ -1,6 +1,3 @@
-import enum
-
-
 class Grid():
     def __init__(self, columns: int, rows: int, default='.'):
         self.grid = [ [default] * columns for _ in range(rows) ]
